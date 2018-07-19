@@ -1,0 +1,61 @@
+﻿slots:
+   location:
+    type: text
+   department:
+    type: text
+   date:
+    type: text
+   appointment:
+    type: text
+   result:
+    type: text
+   doctor:
+    type: text
+
+intents:
+   - greet
+   - goodbye
+   - inform
+
+entities:
+   - location
+   - department
+   - doctor
+   - date
+   - appointment
+   - result
+
+templates:
+   utter_greet:
+    - 'Merhaba! Nasil yardimci olabilirim?'
+   utter_ask_location:
+    - 'Hangi hastanemizden hizmet almak istiyorsunuz?'
+   utter_ask_department:
+    - 'Hangi departmandan randevu almak istiyorsunuz?'
+   utter_ask_doctor:
+    - 'Hangi doktorumuzdan randevu almak istiyorsunuz?'
+   utter_ask_date:
+    - 'Ne zaman için randevu istersiniz?'
+   utter_ask_tc:
+    - 'Lutfen TC numaranizi giriniz...'
+   utter_goodbye:
+    - 'tekrar gorusmek uzere.'
+    - 'Hoscakalin :('
+    - 'ALLAHA ISMARLADIK'
+   utter_error:
+    - 'ne dediginizi anlayamadim :('
+   utter_ask_name:
+    - 'Isminiz nedir?'
+    - 'Isminizi ogrenebilir miyim?'
+    
+
+actions:
+   - utter_greet
+   - utter_ask_location
+   - utter_ask_department
+   - utter_ask_doctor
+   - utter_ask_date
+   - utter_ask_tc
+   - utter_goodbye
+   - utter_ask_name
+   - utter_error

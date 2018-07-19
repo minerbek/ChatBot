@@ -1,0 +1,608 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "result",
+            "entity": "result"
+          }
+        ],
+        "text": "I want to check my result"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "department",
+            "entity": "result"
+          }
+        ],
+        "text": "department"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "sonuc",
+            "entity": "result"
+          }
+        ],
+        "text": "I want to look my labrotory result"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "randevu",
+            "entity": "appointment"
+          }
+        ],
+        "text": "I wanna have an appointment"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "child nephrology",
+            "entity": "department"
+          }
+        ],
+        "text": "in child nephrology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 18,
+            "value": "child neurology",
+            "entity": "department"
+          }
+        ],
+        "text": "in child neurology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "check-up",
+            "entity": "department"
+          }
+        ],
+        "text": "in check-up"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 20,
+            "value": "childhood urology",
+            "entity": "department"
+          }
+        ],
+        "text": "in childhood urology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "next monday",
+            "entity": "date"
+          }
+        ],
+        "text": "next monday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "next tuesday",
+            "entity": "date"
+          }
+        ],
+        "text": "next tuesday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "next wednesday",
+            "entity": "date"
+          }
+        ],
+        "text": "next wednesday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "next thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "next thursday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "next friday",
+            "entity": "date"
+          }
+        ],
+        "text": "next friday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "next saturday",
+            "entity": "date"
+          }
+        ],
+        "text": "next saturday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "next sunday",
+            "entity": "date"
+          }
+        ],
+        "text": "next sunday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "child psychiatry",
+            "entity": "department"
+          }
+        ],
+        "text": "in child psychiatry"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "pediatrics",
+            "entity": "department"
+          }
+        ],
+        "text": "in pediatrics"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "pain clinic",
+            "entity": "department"
+          }
+        ],
+        "text": "in pain clinic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 35,
+            "value": "childhood allergy and immunology",
+            "entity": "department"
+          }
+        ],
+        "text": "in childhood allergy and immunology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 22,
+            "value": "child endocrinology",
+            "entity": "department"
+          }
+        ],
+        "text": "in child endocrinology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 29,
+            "value": "anesthesia and reanimation",
+            "entity": "department"
+          }
+        ],
+        "text": "in anesthesia and reanimation"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 30,
+            "value": "emergency service physician",
+            "entity": "department"
+          }
+        ],
+        "text": "in emergency service physician"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "child oncology",
+            "entity": "department"
+          }
+        ],
+        "text": "in child oncology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "dentist",
+            "entity": "department"
+          }
+        ],
+        "text": "in dentist"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 25,
+            "value": "brain and neurosurgery",
+            "entity": "department"
+          }
+        ],
+        "text": "in brain and neurosurgery"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 23,
+            "value": "pediatric cardiology",
+            "entity": "department"
+          }
+        ],
+        "text": "in pediatric cardiology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "child surgeon",
+            "entity": "department"
+          }
+        ],
+        "text": "in child surgeon"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 20,
+            "value": "internal medicine",
+            "entity": "department"
+          }
+        ],
+        "text": "in internal medicine"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 38,
+            "value": "dermo-cosmetic and aesthetic clinic",
+            "entity": "department"
+          }
+        ],
+        "text": "in dermo-cosmetic and aesthetic clinic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 21,
+            "value": "diet and nutrition",
+            "entity": "department"
+          }
+        ],
+        "text": "in diet and nutrition"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 39,
+            "value": "endocrinology and metabolic diseases",
+            "entity": "department"
+          }
+        ],
+        "text": "in endocrinology and metabolic diseases"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 38,
+            "value": "physical therapy and rehabilitation",
+            "entity": "department"
+          }
+        ],
+        "text": "in physical therapy and rehabilitation"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "gastroenterology",
+            "entity": "department"
+          }
+        ],
+        "text": "in gastroenterology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 18,
+            "value": "general surgery",
+            "entity": "department"
+          }
+        ],
+        "text": "in general surgery"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 25,
+            "value": "general intensive care",
+            "entity": "department"
+          }
+        ],
+        "text": "in general intensive care"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "thoracic surgery",
+            "entity": "department"
+          }
+        ],
+        "text": "in thoracic surgery"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "chest diseases",
+            "entity": "department"
+          }
+        ],
+        "text": "in chest diseases"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 26,
+            "value": "eye health and diseases",
+            "entity": "department"
+          }
+        ],
+        "text": "in eye health and diseases"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 23,
+            "value": "histology embryology",
+            "entity": "department"
+          }
+        ],
+        "text": "in histology embryology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 28,
+            "value": "gynecology and Obstetrics",
+            "entity": "department"
+          }
+        ],
+        "text": "in gynecology and Obstetrics"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 18,
+            "value": "cardiac surgery",
+            "entity": "department"
+          }
+        ],
+        "text": "in cardiac surgery"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "cardiology",
+            "entity": "department"
+          }
+        ],
+        "text": "in cardiology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 24,
+            "value": "clinical biochemistry",
+            "entity": "department"
+          }
+        ],
+        "text": "in clinical biochemistry"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 48,
+            "value": "clinical embryologistin clinical microbiology",
+            "entity": "department"
+          }
+        ],
+        "text": "in clinical embryologistin clinical microbiology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 22,
+            "value": "clinical psychology",
+            "entity": "department"
+          }
+        ],
+        "text": "in clinical psychology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "stem cells",
+            "entity": "department"
+          }
+        ],
+        "text": "in stem cells"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

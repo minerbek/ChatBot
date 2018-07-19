@@ -1,0 +1,75 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_ask_location
+- utter_ask_department
+- utter_ask_doctor
+- utter_ask_date
+- utter_ask_tc
+- utter_goodbye
+- utter_ask_name
+- utter_error
+actions:
+- utter_greet
+- utter_ask_location
+- utter_ask_department
+- utter_ask_doctor
+- utter_ask_date
+- utter_ask_tc
+- utter_goodbye
+- utter_ask_name
+- utter_error
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- department
+- doctor
+- date
+- appointment
+- result
+intents:
+- greet
+- goodbye
+- inform
+slots:
+  appointment:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  date:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  department:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  doctor:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  result:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_date:
+  - text: Ne zaman için randevu istersiniz?
+  utter_ask_department:
+  - text: Hangi departmandan randevu almak istiyorsunuz?
+  utter_ask_doctor:
+  - text: Hangi doktorumuzdan randevu almak istiyorsunuz?
+  utter_ask_location:
+  - text: Hangi hastanemizden hizmet almak istiyorsunuz?
+  utter_ask_name:
+  - text: Isminiz nedir?
+  - text: Isminizi ogrenebilir miyim?
+  utter_ask_tc:
+  - text: Lutfen TC numaranizi giriniz...
+  utter_error:
+  - text: ne dediginizi anlayamadim :(
+  utter_goodbye:
+  - text: tekrar gorusmek uzere.
+  - text: Hoscakalin :(
+  - text: ALLAHA ISMARLADIK
+  utter_greet:
+  - text: Merhaba! Nasil yardimci olabilirim?

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/aem.iml" filepath="$PROJECT_DIR$/.idea/aem.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/format/.idea/format.iml" filepath="$USER_HOME$/PycharmProjects/format/.idea/format.iml" />
+    </modules>
+  </component>
+</project>

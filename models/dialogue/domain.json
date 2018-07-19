@@ -1,0 +1,31 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_inform",
+    "entity_location",
+    "entity_department",
+    "entity_doctor",
+    "entity_date",
+    "entity_appointment",
+    "entity_result",
+    "slot_appointment_0",
+    "slot_date_0",
+    "slot_department_0",
+    "slot_doctor_0",
+    "slot_location_0",
+    "slot_result_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_ask_location",
+    "prev_utter_ask_department",
+    "prev_utter_ask_doctor",
+    "prev_utter_ask_date",
+    "prev_utter_ask_tc",
+    "prev_utter_goodbye",
+    "prev_utter_ask_name",
+    "prev_utter_error"
+  ]
+}
