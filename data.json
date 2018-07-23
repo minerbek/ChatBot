@@ -26,7 +26,7 @@
 
             "start": 19,
 
-            "end": 24,
+            "end": 25,
 
             "value": "result",
 
@@ -50,7 +50,7 @@
 
             "start": 0,
 
-            "end": 9,
+            "end": 10,
 
             "value": "department",
 
@@ -74,9 +74,9 @@
 
             "start": 28,
 
-            "end": 33,
+            "end": 34,
 
-            "value": "sonuc",
+            "value": "result",
 
             "entity": "result"
 
@@ -98,9 +98,9 @@
 
             "start": 16,
 
-            "end": 25,
+            "end": 27,
 
-            "value": "randevu",
+            "value": "appointment",
 
             "entity": "appointment"
 

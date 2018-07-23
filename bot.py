@@ -17,6 +17,7 @@ from rasa_core.featurizers import (
     BinarySingleStateFeaturizer)
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.policies.memoization import MemoizationPolicy
+from train import HospitalPolicy
 
 logger = logging.getLogger(__name__)
 
