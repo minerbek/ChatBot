@@ -1,4 +1,5 @@
 ﻿slots:
+
    location:
     type: text
    department:
@@ -29,9 +30,23 @@ templates:
    utter_greet:
     - 'Merhaba! Nasil yardimci olabilirim?'
    utter_ask_location:
-    - 'Hangi hastanemizden hizmet almak istiyorsunuz?'
+    - text: "Hangi hastanemizden hizmet almak istiyorsunuz?"
+        buttons:
+       - title: "ANKARA"
+         payload: "ANKARA"
+       - title: "ISTANBUL"
+         payload: "ISTANBUL"
+       - title: "SAMSUN"
+         payload: "SAMSUN"
    utter_ask_department:
-    - 'Hangi departmandan randevu almak istiyorsunuz?'
+    - text: "Hangi departmandan randevu almak istiyorsunuz?"
+      buttons:
+       - title: "algoloji"
+         payload: "algoloji"
+       - title: "beyin ve sinir cerrahisi"
+         payload: "beyin ve sinir cerrahisi"
+       - title: "çocuk hematolojisi"
+         payload: "çocuk hematolojisi"
    utter_ask_doctor:
     - 'Hangi doktorumuzdan randevu almak istiyorsunuz?'
    utter_ask_date:
@@ -47,7 +62,7 @@ templates:
    utter_ask_name:
     - 'Isminiz nedir?'
     - 'Isminizi ogrenebilir miyim?'
-    
+
 
 actions:
    - utter_greet
