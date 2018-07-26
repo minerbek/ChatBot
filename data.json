@@ -37,6 +37,213 @@
         ]
 
       },
+      {
+
+        "text": "at ankara",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 9,
+
+            "value": "ankara",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "ankara",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 0,
+
+            "end": 6,
+
+            "value": "ankara",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "in ankara",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 9,
+
+            "value": "ankara",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "istanbul",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 0,
+
+            "end": 8,
+
+            "value": "istanbul",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
+      {
+
+        "text": "in istanbul",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 11,
+
+            "value": "in istanbul",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
+       {
+
+        "text": "at istanbul",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 11,
+
+            "value": "in istanbul",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "samsun",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 0,
+
+            "end": 6,
+
+            "value": "samsun",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
+      {
+
+        "text": "in samsun",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 9,
+
+            "value": "samsun",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
+      {
+
+        "text": "at samsun",
+
+        "intent": "location",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 9,
+
+            "value": "samsun",
+
+            "entity": "location"
+
+          }
+
+        ]
+
+      },
 
   {
 
@@ -90,7 +297,7 @@
 
         "text": "I wanna have an appointment",
 
-        "intent": "inform",
+        "intent": "appointment",
 
         "entities": [
 
@@ -99,6 +306,121 @@
             "start": 16,
 
             "end": 27,
+
+            "value": "appointment",
+
+            "entity": "appointment"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "appointment",
+
+        "intent": "appointment",
+
+        "entities": [
+
+          {
+
+            "start": 0,
+
+            "end": 11,
+
+            "value": "appointment",
+
+            "entity": "appointment"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "wanna an appointment",
+
+        "intent": "appointment",
+
+        "entities": [
+
+          {
+
+            "start": 9,
+
+            "end": 20,
+
+            "value": "appointment",
+
+            "entity": "appointment"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "an appointment",
+
+        "intent": "appointment",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 14,
+
+            "value": "appointment",
+
+            "entity": "appointment"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "is there any available appointment",
+
+        "intent": "appointment",
+
+        "entities": [
+
+          {
+
+            "start": 23,
+
+            "end": 34,
+
+            "value": "appointment",
+
+            "entity": "appointment"
+
+          }
+
+        ]
+
+      },
+  {
+
+        "text": "available appointment",
+
+        "intent": "appointment",
+
+        "entities": [
+
+          {
+
+            "start": 10,
+
+            "end": 21,
 
             "value": "appointment",
 
@@ -255,48 +577,192 @@
 
   },
   {
-    "text": "next monday",
+    "text": "dr ali",
+    "intent": "inform",
+    "entities": [
+      {
+        "start": 3,
+        "end": 6,
+        "value": "ali",
+        "entity": "doctor"
+      }
+    ]
+  },
+  {
+    "text": "doktor ali",
+    "intent": "inform",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "ali",
+        "entity": "doctor"
+      }
+    ]
+  },
+  {
+    "text": "plastik cerrahi bölümü",
     "intent": "inform",
     "entities": [
       {
         "start": 0,
+        "end": 15,
+        "value": "plastik cerrahi",
+        "entity": "department"
+      }
+    ]
+  },
+  {
+    "text": "plastik cerrahi",
+    "intent": "inform",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "plastik cerrahi",
+        "entity": "department"
+      }
+    ]
+  },
+  {
+    "text": "next monday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
         "end": 11,
-        "value": "next monday",
+        "value": "monday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "monday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "monday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "this monday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "monday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "this tuesday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "tuesday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "tuesday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "tuesday",
         "entity": "date"
       }
     ]
   },
   {
     "text": "next tuesday",
-    "intent": "inform",
+    "intent": "date",
     "entities": [
       {
-        "start": 0,
+        "start": 5,
         "end": 12,
-        "value": "next tuesday",
+        "value": "tuesday",
         "entity": "date"
       }
     ]
   },
   {
     "text": "next wednesday",
-    "intent": "inform",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "wednesday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "this wednesday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "wednesday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "wednesday",
+    "intent": "date",
     "entities": [
       {
         "start": 0,
-        "end": 14,
-        "value": "next wednesday",
+        "end": 9,
+        "value": "wednesday",
         "entity": "date"
       }
     ]
   },
   {
     "text": "next thursday",
-    "intent": "inform",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "thursday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "this thursday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "thursday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "thursday",
+    "intent": "date",
     "entities": [
       {
         "start": 0,
-        "end": 13,
+        "end": 8,
         "value": "next thursday",
         "entity": "date"
       }
@@ -304,41 +770,113 @@
   },
   {
     "text": "next friday",
-    "intent": "inform",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "friday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "this friday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "friday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "friday",
+    "intent": "date",
     "entities": [
       {
         "start": 0,
-        "end": 11,
-        "value": "next friday",
+        "end": 6,
+        "value": "friday",
         "entity": "date"
       }
     ]
   },
   {
     "text": "next saturday",
-    "intent": "inform",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "saturday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "this saturday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "saturday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "saturday",
+    "intent": "date",
     "entities": [
       {
         "start": 0,
-        "end": 13,
-        "value": "next saturday",
+        "end": 8,
+        "value": "saturday",
         "entity": "date"
       }
     ]
   },
   {
     "text": "next sunday",
-    "intent": "inform",
+    "intent": "date",
     "entities": [
       {
         "start": 0,
         "end": 11,
-        "value": "next sunday",
+        "value": "sunday",
         "entity": "date"
       }
     ]
   },
-    
+  {
+    "text": "this sunday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "sunday",
+        "entity": "date"
+      }
+    ]
+  },
+  {
+    "text": "sunday",
+    "intent": "date",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "sunday",
+        "entity": "date"
+      }
+    ]
+  },
+
 
 
   {
@@ -347,7 +885,7 @@
     "text": "in child psychiatry",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -383,7 +921,7 @@
     "text": "in pediatrics",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -419,7 +957,7 @@
     "text": "in pain clinic",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -455,7 +993,7 @@
     "text": "in childhood allergy and immunology",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -491,7 +1029,7 @@
     "text": "in child endocrinology",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -527,7 +1065,7 @@
     "text": "in anesthesia and reanimation",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -563,7 +1101,7 @@
     "text": "in emergency service physician",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -599,7 +1137,7 @@
     "text": "in child oncology",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -635,7 +1173,7 @@
     "text": "in dentist",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -671,7 +1209,7 @@
     "text": "in brain and neurosurgery",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -707,7 +1245,7 @@
     "text": "in pediatric cardiology",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -743,7 +1281,7 @@
     "text": "in child surgeon",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -775,7 +1313,7 @@
 
     "text": "in internal medicine",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -799,7 +1337,7 @@
 
     "text": "in dermo-cosmetic and aesthetic clinic",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -823,7 +1361,7 @@
 
     "text": "in diet and nutrition",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -847,7 +1385,7 @@
 
     "text": "in endocrinology and metabolic diseases",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -871,7 +1409,7 @@
 
     "text": "in physical therapy and rehabilitation",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -895,7 +1433,7 @@
 
     "text": "in gastroenterology",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -919,7 +1457,7 @@
 
     "text": "in general surgery",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -943,7 +1481,7 @@
 
     "text": "in general intensive care",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -967,7 +1505,7 @@
 
     "text": "in thoracic surgery",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -991,7 +1529,7 @@
 
     "text": "in chest diseases",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1015,7 +1553,7 @@
 
     "text": "in eye health and diseases",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1039,7 +1577,7 @@
 
     "text": "in histology embryology",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1063,7 +1601,7 @@
 
     "text": "in gynecology and Obstetrics",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1087,7 +1625,7 @@
 
     "text": "in cardiac surgery",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1111,7 +1649,7 @@
 
     "text": "in cardiology",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1135,7 +1673,7 @@
 
     "text": "in clinical biochemistry",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1159,7 +1697,7 @@
 
     "text": "in clinical embryologistin clinical microbiology",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1183,7 +1721,7 @@
 
     "text": "in clinical psychology",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1207,7 +1745,7 @@
 
     "text": "in stem cells",
 
-    "intent": "inform",
+    "intent": "department",
 
     "entities": [
 
@@ -1229,6 +1767,15 @@
   {
 
         "text": "hey",
+
+        "intent": "greet",
+
+        "entities": []
+
+      },
+      {
+
+        "text": "selam",
 
         "intent": "greet",
 
@@ -1290,7 +1837,52 @@
 
         "text": "bye",
 
-        "intent": "goodbye",
+        "intent": "greet",
+
+        "entities": []
+
+      },
+      {
+
+        "text": "bye bye",
+
+        "intent": "greet",
+
+        "entities": []
+
+      },
+      {
+
+        "text": "selamün aleyküm",
+
+        "intent": "greet",
+
+        "entities": []
+
+      },
+      {
+
+        "text": "good morning",
+
+        "intent": "greet",
+
+        "entities": []
+
+      },
+      {
+
+        "text": "glu glu",
+
+        "intent": "greet",
+
+        "entities": []
+
+      },
+      {
+
+        "text": "byee",
+
+        "intent": "greet",
 
         "entities": []
 
@@ -1310,7 +1902,7 @@
 
         "text": "bye bye",
 
-        "intent": "goodbye",
+        "intent": "greet",
 
         "entities": []
 
@@ -1330,7 +1922,7 @@
 
         "text": "see you later",
 
-        "intent": "goodbye",
+        "intent": "greet",
 
         "entities": []
 

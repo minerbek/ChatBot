@@ -32,7 +32,7 @@ def run(serve_forever=True):
 
 
 if __name__ == '__main__':
-    utils.configure_colored_logging(loglevel="INFO")
+    utils.configure_colored_logging(loglevel="DEBUG")
 
     parser = argparse.ArgumentParser(
             description='starts the bot')

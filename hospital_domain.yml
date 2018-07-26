@@ -1,5 +1,4 @@
 ﻿slots:
-
    location:
     type: text
    department:
@@ -17,6 +16,10 @@ intents:
    - greet
    - goodbye
    - inform
+   - department
+   - location
+   - date
+   - appointment
 
 entities:
    - location
@@ -28,10 +31,10 @@ entities:
 
 templates:
    utter_greet:
-    - 'Merhaba! Nasil yardimci olabilirim?'
+    - text: "Merhaba! Nasil yardimci olabilirim?"
    utter_ask_location:
     - text: "Hangi hastanemizden hizmet almak istiyorsunuz?"
-        buttons:
+      buttons:
        - title: "ANKARA"
          payload: "ANKARA"
        - title: "ISTANBUL"
@@ -47,23 +50,74 @@ templates:
          payload: "beyin ve sinir cerrahisi"
        - title: "çocuk hematolojisi"
          payload: "çocuk hematolojisi"
+       - title: "çocuk nefrolojisi"
+         payload: "çocuk nefrolojisi"
+       - title: "çocuk sağlığı ve hastalıkları"
+         payload: "çocuk sağlığı ve hastalıkları"
+       - title: "dermatoloji"
+         payload: "dermatoloji"
+       - title: "diyet polikinliği"
+         payload: "diyet polikinliği"
+       - title: "endokrinoloji"
+         payload: "endokrinoloji"
+       - title: "enfeksiyon hastalıkları"
+         payload: "enfeksiyon hastalıkları"
+       - title: "fizik tedavi ve rehabilitasyon"
+         payload: "fizik tedavi ve rehabilitasyon"
+       - title: "gastroenteroloji"
+         payload: "gastroenteroloji"
+       - title: "genel cerrahi"
+         payload: "genel cerrahi"
+       - title: "gögüs hastalıkları"
+         payload: "gögüs hastalıkları"
+       - title: "hematoloji polikinliği"
+         payload: "hematoloji polikinliği"
+       - title: "iç hastalıkları"
+         payload: "iç hastalıkları"
+       - title: "kadın hastalıkları ve doğum"
+         payload: "kadın hastalıkları ve doğum"
+       - title: "kalp ve damar cerrahisi"
+         payload: "kalp ve damar cerrahisi"
+       - title: "kardiyoloji"
+         payload: "kardiyoloji"
+       - title: "KBB hastalıkları"
+         payload: "KBB hastalıkları"
+       - title: "nefroloji"
+         payload: "nefroloji"
+       - title: "nöroloji"
+         payload: "nöroloji"
+       - title: "ortopedi ve travmatoloji"
+         payload: "ortopedi ve travmatoloji"
+       - title: "plastik cerrahi"
+         payload: "plastik cerrahi"
+       - title: "psikiyatri"
+         payload: "psikiyatri"
+       - title: "psikolog"
+         payload: "psikolog"
+       - title: "romatoloji"
+         payload: "romatoloji"
+       - title: "tıbbi onkoloji"
+         payload: "tıbbi onkoloji"
+       - title: "üroloji"
+         payload: "üroloji"
    utter_ask_doctor:
-    - 'Hangi doktorumuzdan randevu almak istiyorsunuz?'
+    - text: "Hangi doktorumuzdan randevu almak istiyorsunuz?"
+      buttons:
+       - title: "Prof. Dr. Öznur Öken"
+         payload: "algoloji"
    utter_ask_date:
-    - 'Ne zaman için randevu istersiniz?'
+    - text: "Ne zaman için randevu istersiniz?"
    utter_ask_tc:
-    - 'Lutfen TC numaranizi giriniz...'
+    - text: "Lutfen TC numaranizi giriniz..."
    utter_goodbye:
-    - 'tekrar gorusmek uzere.'
-    - 'Hoscakalin :('
-    - 'ALLAHA ISMARLADIK'
+    - text: "tekrar gorusmek uzere."
+    - text: "Hoscakalin :("
+    - text: "ALLAHA ISMARLADIK"
    utter_error:
-    - 'ne dediginizi anlayamadim :('
+    - text: "ne dediginizi anlayamadim :("
    utter_ask_name:
-    - 'Isminiz nedir?'
-    - 'Isminizi ogrenebilir miyim?'
-
-
+    - text: "Isminiz nedir?"
+    - text: "Isminizi ogrenebilir miyim?"
 actions:
    - utter_greet
    - utter_ask_location
@@ -74,4 +128,4 @@ actions:
    - utter_goodbye
    - utter_ask_name
    - utter_error
-   aaaaaaaaaaaaaaaaaaaaaa
+   - ddd.ActionWeather
