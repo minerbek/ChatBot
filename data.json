@@ -16,7 +16,7 @@
 
   {
 
-        "text": "I want to check my result",
+        "text": "01234567890",
 
         "intent": "inform",
 
@@ -24,13 +24,13 @@
 
           {
 
-            "start": 19,
+            "start": 0,
 
-            "end": 25,
+            "end": 11,
 
-            "value": "result",
+            "value": "01234567890",
 
-            "entity": "result"
+            "entity": "tc"
 
           }
 
@@ -247,7 +247,7 @@
 
   {
 
-        "text": "department",
+        "text": "01234567892",
 
         "intent": "inform",
 
@@ -257,11 +257,11 @@
 
             "start": 0,
 
-            "end": 10,
+            "end": 11,
 
-            "value": "department",
+            "value": "01234567892",
 
-            "entity": "result"
+            "entity": "tc"
 
           }
 
@@ -271,7 +271,7 @@
 
   {
 
-        "text": "I want to look my labrotory result",
+        "text": "01234567894",
 
         "intent": "inform",
 
@@ -279,13 +279,13 @@
 
           {
 
-            "start": 28,
+            "start": 0,
 
-            "end": 34,
+            "end": 11,
 
-            "value": "result",
+            "value": "01234567894",
 
-            "entity": "result"
+            "entity": "tc"
 
           }
 
@@ -440,7 +440,7 @@
     "text": "in child nephrology",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -476,7 +476,7 @@
     "text": "in child neurology",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -512,7 +512,7 @@
     "text": "in check-up",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -548,7 +548,7 @@
     "text": "in childhood urology",
 
 
-    "intent": "inform",
+    "intent": "department",
 
 
     "entities": [
@@ -578,7 +578,7 @@
   },
   {
     "text": "dr ali",
-    "intent": "inform",
+    "intent": "doctor",
     "entities": [
       {
         "start": 3,
@@ -590,7 +590,7 @@
   },
   {
     "text": "doktor ali",
-    "intent": "inform",
+    "intent": "doctor",
     "entities": [
       {
         "start": 7,

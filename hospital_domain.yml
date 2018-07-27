@@ -7,9 +7,9 @@
     type: text
    appointment:
     type: text
-   result:
-    type: text
    doctor:
+    type: text
+   tc:
     type: text
 
 intents:
@@ -20,6 +20,7 @@ intents:
    - location
    - date
    - appointment
+   - doctor
 
 entities:
    - location
@@ -27,7 +28,7 @@ entities:
    - doctor
    - date
    - appointment
-   - result
+   - tc
 
 templates:
    utter_greet:
@@ -70,6 +71,8 @@ templates:
          payload: "genel cerrahi"
        - title: "gögüs hastalıkları"
          payload: "gögüs hastalıkları"
+       - title: "göz hastalıkları"
+         payload: "göz hastalıkları"
        - title: "hematoloji polikinliği"
          payload: "hematoloji polikinliği"
        - title: "iç hastalıkları"
@@ -102,9 +105,7 @@ templates:
          payload: "üroloji"
    utter_ask_doctor:
     - text: "Hangi doktorumuzdan randevu almak istiyorsunuz?"
-      buttons:
-       - title: "Prof. Dr. Öznur Öken"
-         payload: "algoloji"
+
    utter_ask_date:
     - text: "Ne zaman için randevu istersiniz?"
    utter_ask_tc:
@@ -118,6 +119,9 @@ templates:
    utter_ask_name:
     - text: "Isminiz nedir?"
     - text: "Isminizi ogrenebilir miyim?"
+
+
+
 actions:
    - utter_greet
    - utter_ask_location
@@ -129,3 +133,5 @@ actions:
    - utter_ask_name
    - utter_error
    - ddd.ActionWeather
+   - dddd.ActionWeatherd
+
