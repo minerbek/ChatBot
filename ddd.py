@@ -100,7 +100,7 @@ class ActionWeather(Action):
             response = "Doç. Dr. Orhan Küçükşahin"
 
         elif loc == 'tıbbi onkoloji':
-            response = "1- Prof. Dr. Fikret Arpacı\n2- Doç. Dr. Gökhan Erdem"
+            response = ["Prof. Dr. Fikret Arpacı", "Doç. Dr. Gökhan Erdem"]
 
         elif loc == 'üroloji':
             response = "Müsait doktor bulunmamaktadır..."
