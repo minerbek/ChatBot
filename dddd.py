@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 from rasa_core.actions.action import Action
 from rasa_core.events import SlotSet
+import json
 
 import pickle
 
@@ -14,14 +15,23 @@ class ActionWeatherd(Action):
     def run(self, dispatcher, tracker, domain):
 
         loc = tracker.get_slot('doctor')
-        response = ""
-        if loc == 'Prof. Dr. Fikret Arpacı':
-            response = response + "loc"
+
+
+
+
+
+
+        #response = json.dumps(tracker.current_slot_values())
+        response = dispatcher.output_channel.messages
+
+        # if loc == 'Prof. Dr. Fikret Arpacı':
+           # response = response + "loc"
 
 
 
         #response = "abc\n\nasd"
 
         dispatcher.utter_message(response)
-        return [SlotSet('doctor', response)]
+        #dispatcher.utter_button_message("abc", [{"abc":1}])
+        return [SlotSet('doctor',response)]
 

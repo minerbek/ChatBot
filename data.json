@@ -362,7 +362,191 @@
         ]
 
       },
+      {
+
+        "text": "Uzm. Dr. Erol Kalender",
+
+        "intent": "doctor",
+
+        "entities": [
+
+          {
+
+            "start": 0,
+
+            "end": 22,
+
+            "value": "Uzm. Dr. Erol Kalender",
+
+            "entity": "doctor"
+
+          }
+
+        ]
+
+      },
   {
+
+        "text": "in Uzm. Dr. Erol Kalender",
+
+        "intent": "doctor",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 25,
+
+            "value": "Uzm. Dr. Erol Kalender",
+
+            "entity": "doctor"
+
+          }
+
+        ]
+
+      },
+      {
+
+        "text": "Doç. Dr. Alper Canbay",
+
+        "intent": "doctor",
+
+        "entities": [
+
+          {
+
+            "start": 0,
+
+            "end": 21,
+
+            "value": "Doç. Dr. Alper Canbay",
+
+            "entity": "doctor"
+
+          }
+
+        ]
+
+      },
+      {
+
+        "text": "in Doç. Dr. Alper Canbay",
+
+        "intent": "doctor",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 24,
+
+            "value": "Doç. Dr. Alper Canbay",
+
+            "entity": "doctor"
+
+          }
+
+        ]
+
+      },
+      {
+
+        "text": "Prof. Dr. Erdoğan İlkay",
+
+        "intent": "doctor",
+
+        "entities": [
+
+          {
+
+            "start": 0,
+
+            "end": 23,
+
+            "value": "Prof. Dr. Erdoğan İlkay",
+
+            "entity": "doctor"
+
+          }
+
+        ]
+
+      },
+      {
+
+        "text": "in Prof. Dr. Erdoğan İlkay",
+
+        "intent": "doctor",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 26,
+
+            "value": "Prof. Dr. Erdoğan İlkay",
+
+            "entity": "doctor"
+
+          }
+
+        ]
+
+      },
+       {
+
+        "text": "in Uzm. Dr. Çiğdem Koca Tarı",
+
+        "intent": "doctor",
+
+        "entities": [
+
+          {
+
+            "start": 3,
+
+            "end": 28,
+
+            "value": "Uzm. Dr. Çiğdem Koca Tarı",
+
+            "entity": "doctor"
+
+          }
+
+        ]
+
+      },
+      {
+
+        "text": "Uzm. Dr. Çiğdem Koca Tarı",
+
+        "intent": "doctor",
+
+        "entities": [
+
+          {
+
+            "start": 0,
+
+            "end": 25,
+
+            "value": "Uzm. Dr. Çiğdem Koca Tarı",
+
+            "entity": "doctor"
+
+          }
+
+        ]
+
+      },
+      {
 
         "text": "an appointment",
 

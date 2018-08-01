@@ -71,7 +71,7 @@ if __name__ == '__main__':
         training_data_file,
         augmentation_factor=25,
         epochs=300,
-        batch_size=10,
+        batch_size=100,
         validation_split=0.2)
 
     agent.persist(model_path)
